@@ -9,6 +9,16 @@ export default {
       type: "string",
     },
     {
+      name: "pitch",
+      title: "Pitch",
+      type: "string",
+    },
+    {
+      name: "hot",
+      title: "Hot",
+      type: "boolean",
+    },
+    {
       name: "slug",
       title: "Slug",
       type: "slug",

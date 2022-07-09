@@ -9,14 +9,33 @@ export default {
       type: "string",
     },
     {
-      name: "email",
-      title: "Email",
+      name: "emailOne",
+      title: "First email",
       type: "string",
     },
     {
-      name: "phone",
-      title: "Phone Number",
+      name: "emailTwo",
+      title: "Second email",
       type: "string",
     },
+    {
+      name: "phone_one",
+      title: "First phone number",
+      type: "string",
+    },
+    {
+      name: "phone_two",
+      title: "Second phone number",
+      type: "string",
+    }
+    // ,
+    // {
+    //   name: "image",
+    //   title: "Team Image",
+    //   type: "image",
+    //   Option:{
+    //     hotspot:true
+    //   }
+    // },
   ],
 };

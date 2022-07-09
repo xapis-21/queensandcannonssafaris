@@ -1,6 +1,6 @@
 export default {
-  name: "services",
-  title: "Services",
+  name: "tours",
+  title: "Tours",
   type: "document",
   fields: [
     {
@@ -9,28 +9,22 @@ export default {
       type: "string",
     },
     {
-      name: "categories",
-      title: "Category",
-      type: "reference",
-      to: { type: "category" },
-    },
-    {
       name: "location",
       title: "Location",
       type: "string",
     },
     {
-      name: "budgetPrice",
+      name: "low",
       title: "Bugdet price",
       type: "number",
     },
     {
-      name: "midLuxuryPrice",
+      name: "mid",
       title: "Mid luxury price",
       type: "number",
     },
     {
-      name: "LuxuryPrice",
+      name: "high",
       title: "luxury price",
       type: "number",
     },
@@ -38,11 +32,6 @@ export default {
       name: "duration",
       title: "Duration",
       type: "string",
-    },
-    {
-      name: "ispopular",
-      title: "Popular",
-      type: "boolean",
     },
     {
       name: "isfeatured",
@@ -61,38 +50,6 @@ export default {
     {
       name: "image",
       title: "Featured image",
-      type: "image",
-      options: {
-        hotspot: true,
-      },
-    },
-    {
-      name: "imageExtra0",
-      title: "Extra image One",
-      type: "image",
-      options: {
-        hotspot: true,
-      },
-    },
-    {
-      name: "imageExtra1",
-      title: "Extra image two",
-      type: "image",
-      options: {
-        hotspot: true,
-      },
-    },
-    {
-      name: "imageExtra2",
-      title: "Extra image three",
-      type: "image",
-      options: {
-        hotspot: true,
-      },
-    },
-    {
-      name: "imageExtra3",
-      title: "Extra image four",
       type: "image",
       options: {
         hotspot: true,
